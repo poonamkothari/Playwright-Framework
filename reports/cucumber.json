@@ -1,0 +1,118 @@
+[
+  {
+    "description": "  As a valid user\n  I want to log into the OrangeHRM application\n  So that I can access the dashboard",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 435606400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user navigates to the login page",
+            "match": {
+              "location": "tests\\steps\\login.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2143891800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters username",
+            "match": {
+              "location": "tests\\steps\\login.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 860167500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user enters password",
+            "match": {
+              "location": "tests\\steps\\login.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14428299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user clicks the login button",
+            "match": {
+              "location": "tests\\steps\\login.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3663036700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user should be redirected to the dashboard",
+            "match": {
+              "location": "tests\\steps\\login.steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31921100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the dashboard should display a dashboard heading",
+            "match": {
+              "location": "tests\\steps\\login.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 919515999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 352164099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "tests\\Features\\login.feature"
+  }
+]
