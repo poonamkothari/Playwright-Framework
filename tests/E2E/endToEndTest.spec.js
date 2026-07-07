@@ -12,12 +12,4 @@ test.describe('Home Page Tests', () => {
     const heading = await page.locator('h5').textContent();
     expect(heading).toBe('Login');
   })
-    
-    test('Verify the home page heading by engineer1', async ({ page }) => {
-
-    await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
-    const heading = await page.locator('h5').textContent();
-    expect(heading).toBe('Login');
-  })
-
 });
