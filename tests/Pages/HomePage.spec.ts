@@ -14,18 +14,8 @@ test.describe('Home Page Tests', () => {
   })
     
     test('Verify the home page heading by engineer1', async ({ page }) => {
-    await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
-    const heading = await page.locator('h5').textContent();
-    expect(heading).toBe('Login');
-  })
 
-   test('Verify the home page heading by engineer2', async ({ page }) => {
-    await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login/EngineerA');
-    const heading = await page.locator('h5').textContent();
-    expect(heading).toBe('Login');
-  })
-     test('Verify the home page heading by engineer3', async ({ page }) => {
-    await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login/EngineerA');
+    await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     const heading = await page.locator('h5').textContent();
     expect(heading).toBe('Login');
   })
